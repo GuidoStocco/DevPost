@@ -1,12 +1,16 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, SafeAreaView, StatusBar } from 'react-native';
+import Routes from './src/routes';
+import { NavigationContainer } from '@react-navigation/native';
 
-const App = () => {
+
+export default function App() {
   return (
-    <View>
-      <Text>Hello World</Text>
-    </View>
+    <NavigationContainer>
+      <SafeAreaView>
+      <StatusBar barStyle="dark-content" />
+      <Routes />
+      </SafeAreaView>
+    </NavigationContainer>
   );
-};
-
-export default App;
+}
