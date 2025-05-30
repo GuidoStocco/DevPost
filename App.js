@@ -8,8 +8,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <SafeAreaView>
-      <StatusBar barStyle="dark-content" />
-      <Routes />
+        <StatusBar barStyle="dark-content" />
+        <Routes/>
       </SafeAreaView>
     </NavigationContainer>
   );

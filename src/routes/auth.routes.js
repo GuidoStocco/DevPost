@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Login from '../pages/Login';
+import Login from '../pages/Login/index';
 
 const Stack = createNativeStackNavigator();
 
